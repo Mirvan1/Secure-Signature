@@ -1,14 +1,17 @@
-# A Mobile Application for Encryption of Signature-Mirvan SADIGLI-20160807004
+## A Mobile Application for Encryption of Signature-Mirvan SADIGLI-20160807004
 
-Abstract
+**Abstract**
+
 The application ensures that store your signature securely. Besides, you can share your signature with others in an encrypted format. It can be used that the encrypted file 
 decrypts to image. The project can only be run on the android-based operating system.
 
-Purpose
+**Purpose**
+
  The purpose of the project keeps the signature securely. Because some people do not want to share signature with everyone. Through this project, they can encrypt their signature.
  Besides, they will be able to share it with the people they want. And by not signing on the paper, they will be able to sign directly through the application.
 
-Methodology
+**Methodology**
+
 The project is written Java language. AES encryption algorithm is used for encryption and decryption of signatures. AES is a symmetric key algorithm and it has 128 bits block size.
 AES encryption algorithm has three different key lengths as 128,192 and 256 bits. AES operates on 16 bytes that means a 4x4 matrix in column-major order. It also has a secret key
 used for encryption and decryption. It means cipher uses the same key for encryption and decryption. Thus, the sender and receiver know this secret key. In this project, I used 
