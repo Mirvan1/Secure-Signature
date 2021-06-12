@@ -25,3 +25,16 @@ like red, green, and blue to draw the signature. The default color is black and 
 For decryption of the image, you can choose from the phone's storage. And the encrypted image shows as ImageView in the activity. You can save the image to the phone gallery. 
 In detail, the decryption method is the same as encryption. The only difference is to change cipher to decrypt mode. You can share the generated file using Gmail or can save
 Google drive, etc. For this, I used a File Provider to do it.
+
+**Start Activity**
+
+![Github 1](/images/StartActivity.jpg)
+
+
+**Encryption Activity**
+
+![GitHub 2](/images/EncryptionActivity.jpg)
+
+**Decryption Activity**
+
+![GitHub 3](/images/DecryptionActivity.jpg)
