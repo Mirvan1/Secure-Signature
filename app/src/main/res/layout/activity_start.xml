@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Secure Signature"
+        android:layout_marginTop="80dp"
+        android:textSize="50sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:id="@+id/encryptImageS"
+        android:text="Encrypt Signature"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="240dp"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="18dp"
+        />
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:id="@+id/decryptImage"
+        android:text="Decrypt Signature"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="360dp"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="18dp"
+        />
+
+</RelativeLayout>

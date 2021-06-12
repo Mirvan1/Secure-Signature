@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EncryptionActivity"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="95dp">
+        <include layout="@layout/paint"/>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:id="@+id/encodeImage"
+        android:text="Encrypt"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="540dp"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="18dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="invisible"
+        android:layout_marginTop="320dp"
+        android:id="@+id/imageView"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="500dp">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:id="@+id/brush"
+            android:background="@drawable/ic_pencil_24"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="18dp"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:id="@+id/eraser"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/ic_delete_24"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="18dp"
+            />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="150dp"
+            android:background="#ffffff"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="180dp"
+            android:id="@+id/red"
+            android:background="@drawable/buttonc"
+            tools:layout_editor_absoluteX="114dp"
+            android:backgroundTint="#ff0000"
+            tools:layout_editor_absoluteY="18dp"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:id="@+id/green"
+            android:layout_marginLeft="260dp"
+            android:background="@drawable/buttonc"
+            tools:layout_editor_absoluteX="114dp"
+            android:backgroundTint="#00ff00"
+            tools:layout_editor_absoluteY="18dp"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:id="@+id/blue"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/buttonc"
+            tools:layout_editor_absoluteX="114dp"
+            android:backgroundTint="@color/colorAccent"
+            tools:layout_editor_absoluteY="18dp"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
